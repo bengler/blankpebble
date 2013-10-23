@@ -1,0 +1,11 @@
+log
+tmp
+coverage/
+*.sublime-*
+.DS_Store
+.rvmrc
+.idea
+config/realms/*
+/_trash
+/.brow
+config/site.rb

@@ -1,0 +1,4 @@
+node :greeting => greeting do
+  attributes :text
+  node :foo => 'bar'
+end

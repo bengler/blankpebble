@@ -1,0 +1,150 @@
+GIT
+  remote: git://github.com/rack/rack-contrib
+  revision: 6f337267eae0bedb4110879f2aea6b1bb2137980
+  specs:
+    rack-contrib (1.2.0)
+      rack (>= 0.9.1)
+
+GIT
+  remote: git@github.com:bengler/bengler_test_helper.git
+  revision: e7c857bfcb5c983390c7736d064824c7fc82b272
+  specs:
+    bengler_test_helper (0.0.4)
+
+GIT
+  remote: git@github.com:bengler/pebbles-cors.git
+  revision: f54656f482b1229bfe11da4c7e0f97421d92c2ab
+  specs:
+    pebbles-cors (0.1.0)
+      dalli
+      pebblebed
+      rack
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activemodel (3.2.12)
+      activesupport (= 3.2.12)
+      builder (~> 3.0.0)
+    activerecord (3.2.12)
+      activemodel (= 3.2.12)
+      activesupport (= 3.2.12)
+      arel (~> 3.0.2)
+      tzinfo (~> 0.3.29)
+    activesupport (3.2.12)
+      i18n (~> 0.6)
+      multi_json (~> 1.0)
+    addressable (2.3.2)
+    airbrake (3.1.8)
+      activesupport
+      builder
+      json
+    arel (3.0.2)
+    bcrypt-ruby (3.0.1)
+    builder (3.0.4)
+    bunny (0.8.0)
+    crack (0.3.2)
+    curb (0.8.4)
+    daemons (1.1.9)
+    dalli (2.6.4)
+    deepstruct (0.0.5)
+    diff-lcs (1.1.3)
+    eventmachine (1.0.0)
+    excon (0.16.10)
+    futurevalue (0.0.2)
+    i18n (0.6.4)
+    json (1.7.7)
+    kgio (2.8.0)
+    memcache_mock (0.0.13)
+    mime-types (1.21)
+    multi_json (1.7.7)
+    nokogiri (1.5.10)
+    norwegian_phone (0.0.10)
+    pathbuilder (0.0.2)
+    pebblebed (0.1.1)
+      activesupport
+      bunny
+      curb (>= 0.7.14)
+      deepstruct (>= 0.0.4)
+      futurevalue
+      i18n
+      nokogiri
+      pathbuilder
+      queryparams
+      yajl-ruby
+    petroglyph (0.0.6)
+      tilt
+    queryparams (0.0.3)
+    rack (1.5.2)
+    rack-protection (1.3.2)
+      rack
+    rack-test (0.6.2)
+      rack (>= 1.0)
+    raindrops (0.10.0)
+    rake (10.0.3)
+    rest-client (1.6.7)
+      mime-types (>= 1.16)
+    rspec (2.12.0)
+      rspec-core (~> 2.12.0)
+      rspec-expectations (~> 2.12.0)
+      rspec-mocks (~> 2.12.0)
+    rspec-core (2.12.2)
+    rspec-expectations (2.12.1)
+      diff-lcs (~> 1.1.3)
+    rspec-mocks (2.12.2)
+    simplecov (0.7.1)
+      multi_json (~> 1.0)
+      simplecov-html (~> 0.7.1)
+    simplecov-html (0.7.1)
+    sinatra (1.3.4)
+      rack (~> 1.4)
+      rack-protection (~> 1.3)
+      tilt (~> 1.3, >= 1.3.3)
+    sinatra-activerecord (0.1.3)
+      sinatra (>= 0.9.4)
+    thin (1.5.0)
+      daemons (>= 1.0.9)
+      eventmachine (>= 0.12.6)
+      rack (>= 1.0.0)
+    tilt (1.3.3)
+    tzinfo (0.3.35)
+    unicorn (4.3.1)
+      kgio (~> 2.6)
+      rack
+      raindrops (~> 0.7)
+    vcr (2.4.0)
+    webmock (1.9.0)
+      addressable (>= 2.2.7)
+      crack (>= 0.1.7)
+    yajl-ruby (1.1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  activerecord (~> 3.2.2)
+  airbrake (~> 3.1.4)
+  bcrypt-ruby
+  bengler_test_helper!
+  dalli
+  excon (~> 0.16.2)
+  memcache_mock
+  nokogiri (~> 1.5.2)
+  norwegian_phone (~> 0.0.10)
+  pebblebed
+  pebbles-cors!
+  petroglyph (~> 0.0.2)
+  rack (~> 1.5)
+  rack-contrib!
+  rack-test
+  rake
+  rest-client (~> 1.6)
+  rspec (~> 2.8)
+  simplecov
+  sinatra (~> 1.3.3)
+  sinatra-activerecord (~> 0.1.3)
+  thin
+  unicorn (~> 4.3.0)
+  vcr
+  webmock
+  yajl-ruby (~> 1.1.0)

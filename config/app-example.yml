@@ -1,0 +1,24 @@
+---
+development:
+  realms:
+    apdm:
+      host: checkpoint.dev
+      god_session: abc
+
+test:
+  realms:
+    apdm:
+      host: checkpoint.dev
+      god_session: abc
+
+staging:
+  realms:
+    apdm:
+      host: apressen.staging.o5.no
+      god_session: xyz
+
+production:
+  realms:
+    apdm:
+      host: apressen.o5.no
+      god_session: xyz
