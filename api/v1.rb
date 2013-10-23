@@ -7,7 +7,6 @@ module Blank
     configure do |config|
       config.set :logging, true
       config.set :logger, LOGGER
-      config.set :show_exceptions, false
       config.set :root, File.expand_path('../v1', __FILE__)
     end
 

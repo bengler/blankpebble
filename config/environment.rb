@@ -4,6 +4,7 @@ require "bundler"
 Bundler.require
 
 require 'rack/contrib'
+require 'yaml'
 require 'pebblebed/sinatra'
 require 'sinatra/petroglyph'
 require 'logger'

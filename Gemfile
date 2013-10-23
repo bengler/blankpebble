@@ -2,10 +2,9 @@ source 'https://rubygems.org/'
 
 gem 'rake'
 gem 'sinatra', '~> 1.3.3'
-gem 'sinatra-activerecord', '~> 0.1.3', :require => false
+gem 'sinatra-contrib'
 gem 'rack', '~> 1.5'
 gem 'rack-contrib', :git => "git://github.com/rack/rack-contrib"
-gem 'activerecord', '~> 3.2.2', :require => 'active_record'
 gem 'yajl-ruby', '~> 1.1.0', :require => "yajl"
 gem 'pebblebed'
 gem 'pebbles-cors', :git => 'git@github.com:bengler/pebbles-cors.git'
