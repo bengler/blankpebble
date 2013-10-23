@@ -3,12 +3,12 @@
 require 'spec_helper'
 require 'webmock/rspec'
 
-describe "API v1 blank" do
+describe "API v1 blankpebble" do
   include Rack::Test::Methods
   include Pebblebed::RSpecHelper
 
   def app
-    Blank::V1
+    BlankPebble::V1
   end
 
   context "GET /greetings/hello" do

@@ -1,6 +1,6 @@
 # encoding: utf-8
 
-module Blank
+module BlankPebble
 
   class V1 < Sinatra::Base
 
